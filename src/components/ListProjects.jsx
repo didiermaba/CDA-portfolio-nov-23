@@ -1,6 +1,6 @@
 import React from "react";
 
-function ListProject() {
+function ListProjects() {
   const content = [
     {
       name: "Project 1",
@@ -67,4 +67,4 @@ function ListProject() {
   );
 }
 
-export default ListProject;
+export default ListProjects;

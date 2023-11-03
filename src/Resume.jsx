@@ -1,5 +1,4 @@
 import React from "react";
-
 import Nav from "./components/Nav";
 import ResumeTitle from "./components/ResumeTitle";
 import Experience from "./components/Experience";
