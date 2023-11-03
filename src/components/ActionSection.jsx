@@ -1,5 +1,5 @@
 import React from "react";
-import "../index.css";
+import { Link } from "react-router-dom";
 
 function ActionSection() {
   return (
@@ -10,12 +10,9 @@ function ActionSection() {
             <h2 className="display-4 fw-bolder mb-4">
               Let's build something together
             </h2>
-            <a
-              className="btn btn-outline-light btn-lg px-5 py-3 fs-6 fw-bolder"
-              href="contact.html"
-            >
+            <Link to="/contact" className="btn btn-outline-light btn-lg px-5 py-3 fs-6 fw-bolder">
               Contact me
-            </a>
+            </Link>
           </div>
         </div>
       </section>
